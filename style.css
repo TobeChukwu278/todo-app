@@ -1,0 +1,95 @@
+/* style.css */
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333; /* Darker heading color */
+}
+
+.input-area {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#taskInput {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 16px; /* Increased font size for input */
+}
+
+#addTaskBtn {
+  background-color: #4caf50; /* Green */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px; /* Increased font size for button */
+}
+
+#addTaskBtn:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+#taskList {
+  list-style: none;
+  padding: 0;
+}
+
+#taskList li {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #eee;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  font-size: 16px; /* Increased font size for list items */
+}
+
+#taskList li span {
+  /* Style the task text */
+  flex-grow: 1; /* Allows the task text to take up available space */
+  word-break: break-all; /* Prevents long words from overflowing */
+}
+
+#taskList li button {
+  background-color: #f44336; /* Red */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px; /* Space between task and button */
+}
+
+#taskList li button:hover {
+  background-color: #d32f2f; /* Darker red on hover */
+}
+
+.completed {
+  /* Style for completed tasks */
+  text-decoration: line-through;
+  color: #888;
+}

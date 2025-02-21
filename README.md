@@ -30,7 +30,7 @@ This project provides a basic to-do list functionality.  It's a great example fo
 
 ## How to Use
 
-1.  *Clone the Repository:*  git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git (Replace with your repository URL)
+1.  *Clone the Repository:*  git clone https://github.com/TobeChukwu278/todo-app.git 
 2.  **Open index.html:** Navigate to the project directory and open the index.html file in your web browser.
 3.  *Add a Task:* Type your task in the input field and click the "Add Task" button or press Enter.
 4.  *Complete a Task:* Click the "Complete" button next to the task.
